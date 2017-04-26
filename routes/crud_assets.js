@@ -3,7 +3,7 @@ var router = express.Router();
 var async = require('async');
 var dbConfig = require('../dbconfig');
 
-// display
+// livepreview
 router.get('/', function (req, res) {
     var selectStatement = `
 SELECT 
